@@ -1,0 +1,65 @@
+{
+  "name": "visit-args",
+  "description": "Visit application methods that map directly to command line arguments and emit events for flags.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/visit-args",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/visit-args",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/visit-args/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "collection-visit": "^0.1.1",
+    "component-emitter": "^1.2.0",
+    "extend-shallow": "^2.0.1",
+    "forward-object": "^0.1.0",
+    "to-emitter": "^0.1.0"
+  },
+  "devDependencies": {
+    "data-store": "^0.8.1",
+    "minimist": "^1.1.3",
+    "minimist-expand": "^0.2.0",
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "args",
+    "argument",
+    "argv",
+    "cli",
+    "command",
+    "command-line",
+    "commands",
+    "emit",
+    "emitter",
+    "event",
+    "line",
+    "listen",
+    "listener",
+    "minimist",
+    "options",
+    "parse",
+    "parser"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "expand-object",
+        "expand-args",
+        "minimist-plugins",
+        "minimist"
+      ]
+    }
+  }
+}
